@@ -2,11 +2,11 @@
 
 Java 8以降では、日付と時間の操作には新しいDate-Time APIが導入されました。このAPIは`java.time`パッケージに含まれており、`LocalDate`や`LocalDateTime`、`DateTimeFormatter`などのクラスを提供しています。
 
-`LocalDate`クラスを使用すると、現在の日付を取得することができます。`LocalDate.now()`メソッドを呼び出すと、現在の日付が返されます。
+`LocalDate`クラスを使用すると、現在の日付を取得できます。`LocalDate.now()`メソッドを呼び出すと、現在の日付が返されます。
 
-`LocalDateTime`クラスを使用すると、現在の日時を取得することができます。`LocalDateTime.now()`メソッドを呼び出すと、現在の日時が返されます。
+`LocalDateTime`クラスを使用すると、現在の日時を取得できます。`LocalDateTime.now()`メソッドを呼び出すと、現在の日時が返されます。
 
-`DateTimeFormatter`クラスを使用すると、日時を特定の形式で出力することができます。`DateTimeFormatter.ofPattern`メソッドを使用して、出力形式を定義します。このメソッドの引数には、出力形式を表す文字列を指定します。
+`DateTimeFormatter`クラスを使用すると、日時を特定の形式で出力できます。`DateTimeFormatter.ofPattern`メソッドを使用して、出力形式を定義します。このメソッドの引数には、出力形式を表す文字列を指定します。
 
 以下に、これらのクラスを使用して現在の日付と日時を取得し、"yyyy.MM.dd"と"yyyy年MM月dd日HH時mm分ss秒"の形式で出力する例を示します。
 
