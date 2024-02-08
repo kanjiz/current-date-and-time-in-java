@@ -1,4 +1,4 @@
-# current-date-time-in-java
+# java-datetime-examples
 
 このリポジトリでは、Javaで日付と時間を扱うための`LocalDate`と`LocalDateTime`の使い方を学べます。ここでは、`DateUtil`と`App`という名前のふたつのシンプルなJavaクラスを使って、それぞれの操作を実際にやってみます。
 
